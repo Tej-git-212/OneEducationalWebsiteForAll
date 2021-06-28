@@ -19,11 +19,6 @@ npm install
 npm start
 ```   
 
-```
-
-npx create_react_app appname
-``` 
-
 ## Steps To Contribute
 - Star the Repository 
 - Fork the project in your github acccount
@@ -32,45 +27,4 @@ npx create_react_app appname
 - Commit changes in the branch
 - Make PR to the upstream Repo
 
-## useful git commands
-git clone <url>        
-( imports the github repo onto our local system )
 
-dir  (windows) / ls (mac)
-( displays the contents in the repo )
-
-cd <filename>
-( changes the directory to the specified file )
-
-fsutil file createnew <filename> <required_size> (windows)   / touch <filename> (mac)
-( creates a new file with the required size )
-
-git add <filename>
-( changes made to the file are kept track of )
-
-git commit -m "<message>"
-( saves the changes we have made with the given message )
-
-git status
-( states the current changes happening inside our repo )
-
-git push
-( uploads our changes onto the github main repo )
-
-git pull
-( imports the github repo contents onto our file )
-
-git reset
-( undo all the changes made by us )
-
-git branch
-( indicates the branch on which we are currently operating )
-
-git checkout main
-( transfers the control to the main branch )
-
-git merge <branch_name>
-( merges our current branch with the master )
-
-git checkout -b <branch_name>
-( creates a new branch and shifts control to it )
